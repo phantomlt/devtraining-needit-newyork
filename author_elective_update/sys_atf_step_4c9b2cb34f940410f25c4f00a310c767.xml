@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Impersonate">b37b2cb34f940410f25c4f00a310c7a6</copied_from>
+        <description>Impersonate the user: Fred Luddy with user Id: fred.luddy
+
+Warning: Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead&#13;
+See the documentation for Test Design Considerations</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <snapshot/>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 16:01:42</sys_created_on>
+        <sys_id>4c9b2cb34f940410f25c4f00a310c767</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_4c9b2cb34f940410f25c4f00a310c767</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 16:01:42</sys_updated_on>
+        <table/>
+        <test display_value="NeedIt Set Requested for and Email copy copy">c89b2cb34f940410f25c4f00a310c764</test>
+        <timeout/>
+        <warning_message>Warning: Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead&#13;
+See the documentation for Test Design Considerations</warning_message>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=4c9b2cb34f940410f25c4f00a310c767"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>4c9b2cb34f940410f25c4f00a310c767</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 16:01:42</sys_created_on>
+        <sys_id>889b2cb34f940410f25c4f00a310c768</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 16:01:42</sys_updated_on>
+        <value>5137153cc611227c000bbd1bd8cd2005</value>
+        <variable display_value="">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>adc3f0cbdb9553c40e785d00cf9619ed</instance_id>
+        <instance_name>dev55737</instance_name>
+        <name>sys_atf_step_4c9b2cb34f940410f25c4f00a310c767</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Impersonate">b37b2cb34f940410f25c4f00a310c7a6</copied_from><description>Impersonate the user: Fred Luddy with user Id: fred.luddy
+
+Warning: Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead&#13;
+See the documentation for Test Design Considerations</description><display_name>Impersonate</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><snapshot/><step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-10-11 16:01:42</sys_created_on><sys_id>4c9b2cb34f940410f25c4f00a310c767</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Impersonate</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_4c9b2cb34f940410f25c4f00a310c767</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-10-11 16:01:42</sys_updated_on><table/><test display_value="NeedIt Set Requested for and Email copy copy">c89b2cb34f940410f25c4f00a310c764</test><timeout/><warning_message>Warning: Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead&#13;
+See the documentation for Test Design Considerations</warning_message></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=4c9b2cb34f940410f25c4f00a310c767"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>4c9b2cb34f940410f25c4f00a310c767</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-10-11 16:01:42</sys_created_on><sys_id>889b2cb34f940410f25c4f00a310c768</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-10-11 16:01:42</sys_updated_on><value>5137153cc611227c000bbd1bd8cd2005</value><variable display_value="">586e2c4253e0220002c6435723dc3415</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-2072764454</payload_hash>
+        <record_name>Impersonate</record_name>
+        <reverted_from/>
+        <source>e617e51c4f9cc010f25c4f00a310c7a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 16:01:42</sys_created_on>
+        <sys_id>cc9b68374f940410f25c4f00a310c777</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16dbb8de8a30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 16:01:42</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>8c9b2cb3ba94041097b46f890a996f69</update_guid>
+        <update_guid_history>8c9b2cb3ba94041097b46f890a996f69:-2072764454</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 16:01:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>7e053b67725046209f01e90958baa009</sys_id>
+        <sys_metadata>4c9b2cb34f940410f25c4f00a310c767</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_4c9b2cb34f940410f25c4f00a310c767</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_4c9b2cb34f940410f25c4f00a310c767">cc9b68374f940410f25c4f00a310c777</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 16:01:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
